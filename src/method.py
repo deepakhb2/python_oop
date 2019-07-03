@@ -15,4 +15,5 @@ print(you.name)
 
 you.attack(deepak)
 
-print(deepak.health)
+print(f"{deepak.name} : {deepak.health}")
+print(f"{you.name} : {you.health}")
